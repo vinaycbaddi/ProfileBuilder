@@ -1,0 +1,28 @@
+.box{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: 10px;
+    position: absolute;
+    border: solid black;
+}
+
+.container{
+    display: flex;
+    flex-flow: row wrap;
+    width: 100%;
+    height: auto;
+}
+.myDiv{
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    margin: 10px;
+    border: 1px solid black;
+    height: 50px;
+    width: 50px;
+}
